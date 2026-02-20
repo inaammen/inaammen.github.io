@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>INAAM</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Cormorant Garamond', serif;
+      background: #f4f0e8;
+      color: #111;
+    }
+
+    .hero {
+      background: #111;
+      color: white;
+      padding: 100px 20px;
+      text-align: center;
+      letter-spacing: 4px;
+    }
+
+    .hero h1 {
+      font-size: 60px;
+      margin: 0;
+    }
+
+    .section {
+      display: flex;
+      flex-direction: column;
+      padding: 60px 20px;
+      max-width: 1100px;
+      margin: auto;
+      gap: 40px;
+    }
+
+    .product-img img {
+      width: 100%;
+      max-width: 400px;
+      display: block;
+      margin: auto;
+    }
+
+    .product-info {
+      text-align: center;
+    }
+
+    .product-info h2 {
+      font-size: 40px;
+      margin-bottom: 10px;
+      letter-spacing: 3px;
+    }
+
+    .collection {
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    .collection h2 {
+      letter-spacing: 3px;
+      margin-bottom: 40px;
+    }
+
+    .grid {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      align-items: center;
+    }
+
+    .grid img {
+      width: 200px;
+    }
+
+    footer {
+      background: #111;
+      color: white;
+      text-align: center;
+      padding: 40px;
+      letter-spacing: 3px;
+    }
+
+    @media(min-width: 768px) {
+      .section {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+      }
+
+      .product-info {
+        text-align: left;
+        max-width: 500px;
+      }
+
+      .grid {
+        flex-direction: row;
+        justify-content: center;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="hero">
+    <h1>INAAM</h1>
+    <p>LUXURY FRAGRANCE HOUSE</p>
+  </div>
+
+  <div class="section">
+    <div class="product-img">
+      <img src="https://via.placeholder.com/400x500" alt="Main Perfume">
+    </div>
+
+    <div class="product-info">
+      <h2>MANTRA</h2>
+      <p>A bold oriental fragrance with depth and intensity.</p>
+      <p><strong>₹3,999</strong></p>
+    </div>
+  </div>
+
+  <div class="collection">
+    <h2>DISCOVER THE COLLECTION</h2>
+
+    <div class="grid">
+      <div>
+        <img src="https://via.placeholder.com/200x250">
+        <p>MANTRA</p>
+      </div>
+
+      <div>
+        <img src="https://via.placeholder.com/200x250">
+        <p>NIRVANA</p>
+      </div>
+
+      <div>
+        <img src="https://via.placeholder.com/200x250">
+        <p>LOTUS SUTRA</p>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    OPEN YOUR SENSES
+  </footer>
+
+</body>
+                                  </html>
